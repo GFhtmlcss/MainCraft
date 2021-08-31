@@ -1,0 +1,110 @@
+body{
+  font-size: 25px;
+  font-family: Courier New;
+}
+.logo {
+  border-radius: 50px;
+  margin-left: 15px;
+  box-shadow: 0 10px 10px 0 PaleGreen;
+}
+.nav {
+  background-image: linear-gradient(to bottom, lightblue, white);
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-link {
+  margin-right: 100px;
+  text-decoration: none;
+  color: SteelBlue;
+  border: 3px solid SteelBlue;
+  padding: 10px;
+  border-radius: 25px;
+  box-shadow: 5px 2px 0 SteelBlue;
+}
+.nav-link:hover {
+  background-color: SteelBlue;
+  color: white;
+  box-shadow: 5px 2px 0 SkyBlue;
+}
+.nav-link:focus {
+  box-shadow: inset 5px 2px 0 SkyBlue;
+}
+header span, main span{
+  color: MediumSlateBlue;
+  font-weight: 600;
+}
+header a{
+  text-decoration: none;
+  color:  white;
+  
+}
+.float1 {
+  margin: 25px;
+  width: 300px;
+  background-image: linear-gradient(to bottom, LightBlue, MediumPurple);
+  padding: 15px;
+  border: 5px dashed MediumSlateBlue;
+  box-shadow: 0 10px 15px 0 MediumSlateBlue;
+}
+.main-float1{
+  border-radius: 50px;
+}
+.float2 {
+  width: 200px;
+  padding: 15px;
+  background-image: linear-gradient(to top, SteelBlue, LightSkyBlue, SteelBlue);
+  border-top: 5px dashed Navy;
+  border-bottom: 5px dashed Navy;
+  border-radius: 25px;
+  box-shadow: 0 10px 15px 0 DarkTurquoise;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px 50px 50px 50px;
+}
+.float3 {
+  width: 200px;
+  padding: 15px;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-image: linear-gradient(-50deg, DarkSlateGray, DarkGray);
+  border: 5px dotted DarkGray;
+  box-shadow: -5px 15px 15px 0 grey;
+}
+.img-float3{
+  border-radius: 50px;
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 700px;
+}
+.main2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 700px;
+}
+.main-img {
+  border-radius: 50px;
+  box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, 0.6);
+}
+.main-section {
+  border-top: 5px dashed SandyBrown;
+  border-bottom: 5px dashed SandyBrown;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image:linear-gradient(-50deg, BurlyWood, Cornsilk, BurlyWood);
+  padding: 50px;
+  text-shadow: 5px 5px 4px  rgba(0, 0, 0, 0.3);
+}
