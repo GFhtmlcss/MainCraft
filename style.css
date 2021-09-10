@@ -7,6 +7,10 @@ body{
   margin-left: 15px;
   box-shadow: 0 10px 10px 0 PaleGreen;
 }
+.logo:hover{
+  box-shadow: 0 15px 10px 0 MediumSpringGreen, 0 0 15px 5px SeaGreen;
+  transition: 0.5s linear;
+}
 .nav {
   background-image: linear-gradient(to bottom, lightblue, white);
   height: 200px;
@@ -27,6 +31,7 @@ body{
   background-color: SteelBlue;
   color: white;
   box-shadow: 5px 2px 0 SkyBlue;
+  transition: 0.4s linear;
 }
 .nav-link:focus {
   box-shadow: inset 5px 2px 0 SkyBlue;
@@ -75,6 +80,16 @@ header a{
   border: 5px dotted DarkGray;
   box-shadow: -5px 15px 15px 0 grey;
 }
+.float1:hover, .float2:hover{
+  font-size: 30px;
+  transition: 1s linear;
+  width: 320px;
+}
+.float3:hover{
+  font-size: 30px;
+  transition: 1s linear;
+  width: 300px;
+}
 .img-float3{
   border-radius: 50px;
 }
@@ -86,6 +101,7 @@ header a{
   width: 400px;
   height: 700px;
 }
+
 .main2 {
   display: flex;
   align-items: center;
@@ -107,4 +123,12 @@ header a{
   background-image:linear-gradient(-50deg, BurlyWood, Cornsilk, BurlyWood);
   padding: 50px;
   text-shadow: 5px 5px 4px  rgba(0, 0, 0, 0.3);
+}
+.main-section:hover {
+  padding: 20px;
+  font-size: 30px;
+  transition: 1s linear;
+};
+.mojang {
+  width: 300px;
 }
